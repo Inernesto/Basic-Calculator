@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav>
+        
+        <div class="main-nav">
+
+            <h1 class="text-center">Calculator Application</h1>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="main-calc center main-content">
+
+            <form id="calculatorForm" method="post">
+
+                <input class="mt-1 calc-input form-control" type="text" name="calc" id="" value="">
+
+            </form>
+
+            <div class="mt-2 calculator flex">
+
+                <div class="numbers">
+
+                    <ul class="ml-3">
+
+                        <li>
+                            <div class="flex">
+
+                                <a class="btn btn-default" href="#" onclick="event.preventDefault();" value="9">9</a>
+                                <a class="btn btn-default" href="#" onclick="event.preventDefault();" value="8">8</a>
+                                <a class="btn btn-default" href="#" onclick="event.preventDefault();" value="7">7</a>
+                            </div>
+
+                            <div class="flex">
+
+                                <a class="btn btn-default" href="#" onclick="event.preventDefault();" value="6">6</a>
+                                <a class="btn btn-default" href="#" onclick="event.preventDefault();" value="5">5</a>
+                                <a class="btn btn-default" href="#" onclick="event.preventDefault();" value="4">4</a>
+                            </div>
+
+                            <div class="flex">
+
+                                <a class="btn btn-default" href="#" onclick="event.preventDefault();" value="3">3</a>
+                                <a class="btn btn-default" href="#" onclick="event.preventDefault();" value="2">2</a>
+                                <a class="btn btn-default" href="#" onclick="event.preventDefault();" value="1">1</a>
+                            </div>
+
+                            <div class="flex">
+
+                                <a class="btn btn-default" href="#" onclick="event.preventDefault();" value="0">0</a>
+                                <a class="btn btn-default" href="#" onclick="event.preventDefault();" value=".">.</a>
+                                <a class="btn btn-default" href="#" onclick="event.preventDefault();" value="%">%</a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="controls">
+
+                    <ul class="mr-3">
+
+                        <li><a class="btn btn-green" href="#" onclick="event.preventDefault();" value="+">+</a></li>
+                        <li><a class="btn btn-orange" href="#" onclick="event.preventDefault();" value="-">-</a></li>
+                        <li><a class="btn btn-pink" href="#" onclick="event.preventDefault();" value="/">/</a></li>
+                        <li><a class="btn btn-yellow" href="#" onclick="event.preventDefault();" value="*">*</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="flex indicators">
+
+                <a class="ml-3 btn btn-danger" href="#" onclick="event.preventDefault();" cancel="cancel">Cancel</a>
+                <a class="ml-3 btn btn-reset" href="#" onclick="event.preventDefault();" reset="reset">Reset</a>
+                <a class="ml-3 btn btn-primary" href="#" onclick="event.preventDefault();" submit="enter">Enter</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
